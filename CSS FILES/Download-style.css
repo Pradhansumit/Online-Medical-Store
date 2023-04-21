@@ -1,0 +1,40 @@
+._downloadAppContainer {
+  padding-top: 10vh;
+  height: 57vh;
+  font-size: 2rem;
+  background: linear-gradient(
+    to right,
+    rgba(255, 144, 166, 0.4),
+    rgba(255, 57, 97, 0.8)
+  );
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 10vh 0;
+}
+.phoneImg {
+  height: 50vh;
+  width: auto;
+  transform: translateY(-12.3%);
+}
+._downloadAppArea {
+  margin: 0 auto;
+  align-items: center;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+  height: 80%;
+  background: linear-gradient(to right, rgba(252, 139, 78), #f51f14);
+  border-radius: 288px;
+}
+.downloadBtn {
+  height: 9vh;
+  cursor: pointer;
+}
+.downloadParah {
+  font-size: 1rem;
+  width: 25vw;
+}

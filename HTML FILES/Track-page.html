@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TopPharma</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../css files/Navbar-style.css" />
+    <link rel="stylesheet" href="../css files/Header-style.css" />
+    <link rel="stylesheet" href="../css files/Category-style.css" />
+    <link rel="stylesheet" href="../css files/Consult-style.css" />
+    <link rel="stylesheet" href="../css files/Download-style.css" />
+    <link rel="stylesheet" href="../css files/OrderMedicine-style.css" />
+    <link rel="stylesheet" href="../css files/Footer-style.css" />
+    <link rel="stylesheet" href="../css files/Carousel-style.css" />
+    <link rel="stylesheet" href="../css files/Limited-style.css" />
+    <link rel="stylesheet" href="../css files/SignIn-style.css" />
+
+    <!-- fontawesome link  -->
+    <script
+      src="https://kit.fontawesome.com/6fabdd1b6f.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: Roboto, sans-serif;
+        /* padding-bottom: 50vh; */
+      }
+
+      .whatsappImg {
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        right: 3%;
+        top: 80%;
+        transition: all 0.2s ease-in-out;
+        z-index: 999;
+      }
+
+      .whatsappImg:hover {
+        filter: drop-shadow(0 0 7px rgba(0, 0, 0, 0.3));
+      }
+    </style>
+  </head>
+  <body>
+    <!-- whatsapp button</h1> -->
+    <a target="_blank" href="http://web.whatsapp.com/" class="whatsappBtn">
+      <img class="whatsappImg" src="../images/whatsapp (1).png" alt="" />
+    </a>
+    <nav class="_navbar">
+      <!-- upper small links container -->
+
+      <div class="_small-links">
+        <div class="_left-smalllinks">
+          <a class="phone-no"><i class="fa-solid fa-phone"></i>+123456789</a>
+          <a target="_blank" href="http://mail.google.com" class="email"
+            ><i class="fa-solid fa-envelope"></i>abc@gmail.com</a
+          >
+        </div>
+        <div class="_right-smalllinks">
+          <a
+            target="_blank"
+            href="https://play.google.com/store/"
+            class="download-app"
+          >
+            <i class="fa-solid fa-mobile"></i>Download App
+          </a>
+          <a href="./Track-page.html" class="track-orders">
+            <i class="fa-solid fa-truck-fast"></i>Track Orders
+          </a>
+          <a href="./ContactUs.html" class="help-center">
+            <i class="fa-solid fa-circle-info"></i>Help Center
+          </a>
+        </div>
+      </div>
+
+      <!-- main nav brand logo container  -->
+
+      <div class="_brandSearchContainer">
+        <a
+          href="./index.html"
+          class="BrandImgHomelink"
+          style="border-bottom: none"
+        >
+          <img
+            class="__brandImgHead"
+            src="../images/OnlineMedicalStore.png"
+            alt=""
+          />
+        </a>
+        <div class="searchBarContainer">
+          <input
+            type="search"
+            name="search-bar"
+            id="search-bar"
+            placeholder="Search for Medicines & Health care products"
+          />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <div class="brandSideContainer">
+          <a target="_blank" href="./Login-page.html" class="_loginLink"
+            ><div class="register">
+              <i class="fa-solid fa-user"></i>
+              <p class="login rightText">Login</p>
+            </div></a
+          >
+
+          <a target="_blank" href="./Cart-page.html" class="_cartPageLink">
+            <div class="cartC">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <p class="cart rightText">Cart</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- end of navbar  -->
+
+    <!-- start of header  -->
+    <header class="_header">
+      <a href="./Diabetes-page.html" class="links">Diabetes</a>
+      <a href="./Eyewear-page.html" class="links">Eyewear</a>
+      <a href="./Ayurvedic-page.html" class="links">Ayurvedic</a>
+      <a href="./Fitness-page.html" class="links">Fitness</a>
+      <a href="./Women-page.html" class="links">Women</a>
+      <a href="./Personal-page.html" class="links">Personal</a>
+      <a href="./Babycare-page.html" class="links">Baby Care</a>
+      <a href="./Devices-page.html" class="links">Devices</a>
+    </header>
+
+    <!-- end of header  -->
+
+    <!-- Signin/Signup section starts here  -->
+    <section class="_signInOutSection">
+      <div class="_signInOutOverallContainer">
+        <img class="packageImg" src="../images/package.jpg" alt="" />
+
+        <div class="_signInInputContainer">
+          <div class="signintxtcontainer">
+            <h2 class="_signInTitle">Track Your Orders</h2>
+            <small class="_signINDescp"
+              >Check the route of your package from the store to your
+              doorstep!</small
+            >
+          </div>
+          <div class="mobileInputContainer">
+            <small class="phTitle">Item ID</small>
+            <div class="phoneInput91">
+              <span class="countryNumber"> # </span>
+              <input
+                type="telephone"
+                class="phoneInputArea"
+                placeholder="Enter your package id no"
+              />
+            </div>
+            <button class="useOTPBtn">SUBMIT</button>
+          </div>
+
+          <div class="_socialMediaBtn">
+            <button class="googleBtn">
+              <a
+                target="_blank"
+                href="https://accounts.google.com"
+                class="googlebtnLink"
+              >
+                <img class="gbtnimg" src="../images/google.png" alt="" />
+                Google</a
+              >
+            </button>
+
+            <button class="facebookBtn">
+              <a
+                target="_blank"
+                href="https://www.facebook.com/"
+                class="facebookbtnLink"
+              >
+                <img class="fbtnimg" src="../images/facebook.png" alt="" />
+                Facebook
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Signin/Signup section ends here  -->
+    <!--! FOOTER SECTION HERE STARTS !-->
+
+    <footer class="footer_section">
+      <div class="footer_overall_container">
+        <!-- * footer box 1  -->
+
+        <div class="about_the_store_container f_box_container">
+          <h3 class="footer_title">About The Store</h3>
+          <p class="f_desc f_snd_box_items">
+            The best work online is <span class="f_shop">Shopping.</span>
+          </p>
+          <p class="f_location f_snd_box_items">
+            <i class="fa-solid fa-map-location"></i> Sayajiganj, Vadodara,
+            Gujarat
+          </p>
+          <p class="f_telephone f_snd_box_items">
+            <i class="fa-solid fa-phone"></i>+123456789
+          </p>
+          <p class="f_email f_snd_box_items">
+            <i class="fa-solid fa-envelope"></i> abc@gmail.com
+          </p>
+          <div class="f_social_media">
+            <a
+              class="f_social_media_links"
+              href="http://www.facebook.com"
+              target="_blank"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a
+              class="f_social_media_links"
+              href="http://www.twitter.com"
+              target="_blank"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a
+              class="f_social_media_links"
+              href="http://www.instagram.com"
+              target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a
+              class="f_social_media_links"
+              href="http://www.pinterest.com"
+              target="_blank"
+              ><i class="fa-brands fa-pinterest"></i
+            ></a>
+          </div>
+        </div>
+
+        <!-- * footer box 2  -->
+
+        <div class="about_the_store_container f_box_container">
+          <h3 class="footer_title">Quick Links</h3>
+          <p class="f_snd_box_items">About Us</p>
+          <p class="f_snd_box_items">Shop Now!</p>
+          <p class="f_snd_box_items">Medicines</p>
+          <p class="f_snd_box_items">FAQ'S</p>
+          <p class="f_snd_box_items">Contact Us</p>
+          <p class="f_snd_box_items">Customer Services</p>
+        </div>
+        <!-- * footer box 3 -->
+
+        <div class="about_the_store_container f_box_container">
+          <h3 class="footer_title">Customer Support</h3>
+          <p class="f_snd_box_items">My Account</p>
+          <p class="f_snd_box_items">Checkout</p>
+          <p class="f_snd_box_items">Cart</p>
+          <p class="f_snd_box_items">Order Tracking</p>
+          <p class="f_snd_box_items">Help & Support</p>
+        </div>
+        <!-- * footer box 4 -->
+
+        <div class="about_the_store_container f_box_container">
+          <h3 class="footer_title">NewsLetter</h3>
+          <p class="newletter_desc">
+            To get the latest news and updates from us.
+          </p>
+          <p class="f_snd_box_items f_email_title">Your E-mail Address</p>
+          <input
+            type="text"
+            name="f_email"
+            id="f_email"
+            placeholder="Enter Your Email"
+          />
+          <a href="#" class="f_subscribe">Subscribe</a>
+        </div>
+      </div>
+    </footer>
+
+    <!--! FOOTER SECTION HERE ENDS !-->
+  </body>
+</html>

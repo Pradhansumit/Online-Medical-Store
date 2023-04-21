@@ -1,0 +1,36 @@
+@import url(./Carousel-style.css);
+@import url(./Category-style.css);
+@import url(./Consult-style.css);
+@import url(./Download-style.css);
+@import url(./Footer-style.css);
+@import url(./Header-style.css);
+@import url(./Limited-style.css);
+@import url(./Navbar-style.css);
+@import url(./OrderMedicine-style.css);
+@import url(./SignIn-style.css);
+@import url(./Diabetes-style.css);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  /* padding-bottom: 50vh; */
+}
+
+.whatsappImg {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 3%;
+  top: 80%;
+  transition: all 0.2s ease-in-out;
+  z-index: 999;
+}
+
+.whatsappImg:hover {
+  filter: drop-shadow(0 0 7px rgba(0, 0, 0, 0.3));
+}

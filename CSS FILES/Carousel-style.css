@@ -1,0 +1,16 @@
+.carousel.slide {
+  margin: 8vh 0vh;
+  background-color: white;
+}
+.topImgSlider {
+  height: 75vh;
+  background: rgba(255, 160, 179, 0.2);
+  padding: 3vh 0 0 0;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  border-radius: 50%;
+}

@@ -1,0 +1,140 @@
+section._signInOutSection {
+  background: #ff95a924;
+  height: 87vh;
+  /* margin: -5vh 0; */
+  padding: 5vh 0;
+}
+._signInOutOverallContainer {
+  margin: 5vh auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: crimson;
+  border: solid;
+  border-radius: 15px;
+  width: 66vw;
+  background-color: white;
+  /* margin: auto; */
+}
+._signInInputContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 29vw;
+  /* height: 66vh; */
+  padding: 0 2vw;
+}
+
+img.medicalImg {
+  border-radius: 15px;
+}
+h2._signInTitle {
+  font-weight: bold;
+  border-bottom: solid crimson;
+  color: crimson;
+}
+small.phTitle {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.phoneInput91 {
+  display: flex;
+  align-items: center;
+  border-bottom: 3px solid rgba(220, 20, 60, 0.487);
+  margin-bottom: 4vh;
+}
+
+span.countryNumber {
+  font-weight: bold;
+  border-right: crimson;
+  font-size: 1.5rem;
+  margin-right: 1vw;
+}
+
+input.phoneInputArea {
+  border: none;
+  outline: none;
+  color: crimson;
+  padding: 1vh 0.5vw;
+  font-weight: bold;
+  margin: 1vh 0;
+  font-size: 1.5rem;
+  border-left: 3px solid crimson;
+}
+input.phoneInputArea::placeholder {
+  color: crimson;
+  opacity: 0.7;
+}
+
+button.useOTPBtn {
+  border: none;
+  outline: none;
+  background: crimson;
+  color: white;
+  padding: 2vh 0vw;
+  width: 100%;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+._socialMediaBtn {
+  display: flex;
+  flex-direction: row;
+  gap: 1vh;
+}
+button.googleBtn {
+  background: #ff5475;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1.5vh 2.5vw;
+  border-radius: 10px;
+  margin-top: 20vh;
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+
+img.gbtnimg {
+  height: 30px;
+  display: inline;
+}
+.googlebtnLink {
+  color: white;
+  text-decoration: none;
+}
+
+.googlebtnLink:hover {
+  color: white;
+}
+button.facebookBtn {
+  background: #ff5475;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1.5vh 2.5vw;
+  border-radius: 10px;
+  margin-top: 20vh;
+  cursor: pointer;
+}
+img.fbtnimg {
+  display: inline;
+  height: 30px;
+}
+
+.facebookbtnLink {
+  color: white;
+  text-decoration: none;
+}
+
+.facebookbtnLink:hover {
+  color: white;
+}
+
+.packageImg {
+  width: auto;
+  height: 50vh;
+}

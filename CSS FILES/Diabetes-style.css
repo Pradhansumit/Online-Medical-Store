@@ -1,0 +1,97 @@
+.fullPageMainContentContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 222vh;
+}
+
+.categorylinkscontainer {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+}
+
+._categoryAsideSection {
+  border: solid rgba(220, 20, 60, 0.434);
+  width: 15%;
+  height: 70vh;
+  background-color: #fff;
+  padding: 1vh 1vw;
+  border-radius: 10px;
+  margin: 1vw 0 0 1vw;
+}
+
+h4._categorySideTitle {
+  text-align: center;
+  border-bottom: solid rgba(220, 20, 60, 0.434);
+  margin: 1vh 0;
+  font-weight: bold;
+  color: crimson;
+}
+.categorylinks {
+  color: rgba(0, 0, 0, 0.7);
+  text-decoration: none;
+  padding: 1.28vh 3.5vw;
+  margin: 0.8vh 0;
+  background-color: #ffc3cf4a;
+  border-radius: 10px;
+  transition: all ease-out 0.4s;
+}
+.categorylinks:hover {
+  color: black;
+  background-color: #ff4e6f;
+}
+
+._mainProductSection {
+  width: 80vw;
+}
+
+.mainProductTitle {
+  padding: 1vh 2vw;
+  border-bottom: solid 5px white;
+  width: 80%;
+  margin: 0 0 5vh 0;
+}
+
+.mainProductColumnContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  padding: 0 0 5vh 0;
+  margin: 0 0 5vh 0;
+}
+
+.pagenumbercountcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 5vh 0;
+}
+.pagetitle {
+  margin: 0 0.5vw;
+  padding: 0.5vh 1vw;
+}
+.pgcountnumber {
+  margin: 0 0.5vw;
+  border: none;
+  background-color: #ff4e6f;
+  padding: 0.5vh 1vw;
+  border-radius: 10px;
+}
+
+.pgcountnumberlinks {
+  text-decoration: none;
+  color: white;
+}
+.pgcountnumberlinks:hover {
+  color: white;
+}
+
+/* for Contact us img contact page  */
+
+.ContactUsImg {
+  width: 78vh;
+  height: 61vh;
+  border-radius: 10px;
+}

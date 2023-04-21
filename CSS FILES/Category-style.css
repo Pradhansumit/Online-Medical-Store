@@ -1,0 +1,52 @@
+._categorySection {
+  position: relative;
+  padding: 5vh 0;
+}
+
+/* ._categorySection::after {
+  content: "";
+  position: absolute;
+  height: 0.5vh;
+  width: 100%;
+  background: #000;
+} */
+
+._categoryTitle {
+  /* border: solid 1px red; */
+  border-bottom: solid 5px black;
+  padding-bottom: 2vh;
+}
+
+.categorySliderContainer {
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+/* .circleElements {
+} */
+
+.circleElementLinks {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5vw;
+}
+
+.circleElementLinks:hover {
+  color: black;
+}
+
+.vectorImgs {
+  height: 22vh;
+  padding: 1.5vh;
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='100' ry='100' stroke='%23EC3463' stroke-width='11' stroke-dasharray='30%25%2c 13%25' stroke-dashoffset='81' stroke-linecap='round'/%3e%3c/svg%3e");
+  border-radius: 100px;
+}

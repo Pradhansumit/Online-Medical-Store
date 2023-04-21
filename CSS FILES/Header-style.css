@@ -1,0 +1,20 @@
+._header {
+  display: flex;
+  justify-content: center;
+  gap: 4vh;
+  background-color: rgb(225, 58, 92);
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.links {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.links:hover {
+  color: #ff849b;
+  border-bottom: solid 3px #ff849b;
+}
